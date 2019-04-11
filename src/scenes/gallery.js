@@ -4,7 +4,6 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
 import "../styles/index.css";
-import "bootstrap/dist/css/bootstrap.css"
 
 export default class App extends Component {
   componentDidMount(){
@@ -13,9 +12,9 @@ export default class App extends Component {
   render() {
     return (
       <div className="w-100">
-      	<Navbar history={this.props.history}/>
-      	Index
-        <Footer history={this.props.history}/>
+        <Navbar history={this.props.history}/>
+      	Gallery
+        <Footer />
       </div>
     );
   }
