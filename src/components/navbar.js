@@ -19,11 +19,14 @@ componentDidMount(){
     var item = window.location.pathname.replace('/', '')
     var navUL = $('#navbar-list')
     var navLi= navUL.find('#'+item)
+    item = item.charAt(0).toUpperCase()+ item.slice(1)
+    document.title =  item + " - Scott's Pizzeria"
     navLi.addClass('active')
   }catch(error){
     var navUL = $('#navbar-list')
     var navLi= navUL.find('#home')
     navLi.addClass('active')
+    document.title = "Home - Scott's Pizzeria"
   }
 }
 componentWillUpdate(){

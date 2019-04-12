@@ -21,7 +21,15 @@ code {
   
     monospace;
 }
-
+.bg-yellow{
+  background-color: rgb(231, 185, 89) !important;
+}
+.img-menu{
+  min-width: 260px;
+  min-height: 260px;
+  max-width: 260px;
+  max-height: 260px;
+}
 #img-dark{
   z-index: 100;
   opacity: .5;
@@ -47,6 +55,12 @@ code {
   top: -100%;
   bottom: -100%;
 }  
+.img-fill{
+  margin: 0px;
+  padding: 0px; 
+  min-height: 100%;
+  min-width: 100%;
+}
 .nav-link{
   cursor: pointer;
 }

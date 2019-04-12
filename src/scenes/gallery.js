@@ -4,6 +4,7 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
 import TopImage from "../components/top-image"
+import FullGallery from "../components/fullGallery"
 
 import Image1 from "../img/185403-1500x998.jpg"
 
@@ -20,6 +21,7 @@ export default class App extends Component {
           <Navbar history={this.props.history}/>
           
           <TopImage image={Image1} text="Gallery"/>
+          <FullGallery />
           <Footer history={this.props.history}/>
         </div>
       </section>
