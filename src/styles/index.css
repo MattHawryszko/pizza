@@ -61,6 +61,20 @@ code {
   min-height: 100%;
   min-width: 100%;
 }
+.text-yellow{
+  color: rgb(231, 185, 89);
+}
+.text-yellow:hover{
+  color: rgb(231, 185, 89);
+  text-decoration: none;
+}
+.text-light-grey{
+  color: rgb(141, 141, 141);
+}
+.text-light-grey:hover{
+  color: rgb(141, 141, 141);
+  text-decoration: none;
+}
 .nav-link{
   cursor: pointer;
 }

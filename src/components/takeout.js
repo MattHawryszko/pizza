@@ -12,8 +12,8 @@ render() {
           <img src={TakeOutImage} alt="" className="img-fluid" />
         </div>
         <div className="wow slideInRight faster col-12 col-md-6 col-lg-8 my-auto">
-          <h2>Take Out</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Non qui soluta ipsa, vero aliquid reprehenderit commodi amet eum quam ea. Ad, sapiente. Fugiat placeat hic quo eligendi vero rerum necessitatibus.</p>
+          <h2 className="text-yellow">Take Out</h2>
+          <p className="text-light-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non qui soluta ipsa, vero aliquid reprehenderit commodi amet eum quam ea. Ad, sapiente. Fugiat placeat hic quo eligendi vero rerum necessitatibus.</p>
         </div>
       </div>
       <div className="row flex-column-reverse flex-md-row bg-yellow">
