@@ -5,17 +5,24 @@ import Image2 from "../img/190218-1500x1000.jpg"
 import Image3 from "../img/191354-1500x1000.jpg"
 import Image4 from "../img/Naamloos-1.png"
 
-
+function getRandomInt(max) {
+  return Math.floor(Math.random() * Math.floor(max));
+}
+var Animations = ["bounceIn", "fadeIn", "zoomIn", "slideInUp", "rotateIn"]
 export default class App extends Component {
+componentWillMount(){
+  this.setState({animation: Animations[getRandomInt(4)]})
+}
 render() {
+
     return (
       <div id="carousel">
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner bg-dark-transparent">
           <div className="carousel-caption noselect">
-              <h2>Scott's Famous italian Pizzeria</h2>
-              <h2>Located in Brooklyn New York</h2>
-              <h2>(928) 222 - 0394</h2>
+              <h2 className={"wow "+ this.state.animation}>Scott's Famous italian Pizzeria</h2>
+              <h2 className={"wow "+ this.state.animation}>Located in Brooklyn New York</h2>
+              <h2 className={"wow "+ this.state.animation}>(928) 222 - 0394</h2>
               </div>
             <div class="carousel-item active">
               <img id="img-dark" class="d-block w-100 minh-50 img-dark" src={Image1} alt="First slide" />

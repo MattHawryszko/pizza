@@ -5,11 +5,12 @@ import $ from "jquery"
 export default class App extends Component {
 handleEvent = event => {
   const props = this.props;
-  props.history.push('/'+event.target.id)
+  if(event.target.id != "home")
+    props.history.push('/'+event.target.id)
+  else
+    props.history.push('/')
 };
-constructor(props){  
-  super(props)
-}
+
 componentWillMount(){
 
 }
@@ -20,7 +21,9 @@ componentDidMount(){
     var navLi= navUL.find('#'+item)
     navLi.addClass('active')
   }catch(error){
-
+    var navUL = $('#navbar-list')
+    var navLi= navUL.find('#home')
+    navLi.addClass('active')
   }
 }
 componentWillUpdate(){
@@ -40,6 +43,7 @@ render() {
                 <div className="collapse navbar-collapse justify-content-end" id="navbar1">
 
                 <ul className="navbar-nav" id="navbar-list">
+                  <li className="nav-link text-center" id="home" onClick={this.handleEvent}>Home</li>
                   <li className="nav-link text-center" id="menu" onClick={this.handleEvent}>Menu</li>
                   <li className="nav-link text-center" id="jobs" onClick={this.handleEvent}>Jobs</li>
                   
