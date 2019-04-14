@@ -21,6 +21,7 @@ code {
   
     monospace;
 }
+
 .bg-yellow{
   background-color: rgb(231, 185, 89) !important;
 }
@@ -70,6 +71,8 @@ code {
 }
 .text-light-grey{
   color: rgb(141, 141, 141);
+  list-style-type: none;
+  
 }
 .text-light-grey:hover{
   color: rgb(141, 141, 141);

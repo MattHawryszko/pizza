@@ -4,6 +4,7 @@ import Navbar from "../components/navbar"
 import Footer from "../components/footer"
 
 import TopImage from "../components/top-image"
+import Reservation from "../components/reservation"
 
 import Image1 from "../img/145801-e1466429354215-1500x645.jpg"
 
@@ -19,6 +20,7 @@ export default class App extends Component {
         <div className="w-100">
           <Navbar history={this.props.history}/>
           <TopImage image={Image1} text="Reservation"/>
+          <Reservation />
           <Footer history={this.props.history}/>
         </div>
       </section>

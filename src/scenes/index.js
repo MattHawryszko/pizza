@@ -14,7 +14,7 @@ import "../styles/index.css";
 import "../styles/animate.css";
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap"
-import "@fortawesome/fontawesome-free"
+import "@fortawesome/fontawesome-free/js/all"
 import WOW from "wow.js"
 new WOW().init();
 
