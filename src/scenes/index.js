@@ -15,8 +15,17 @@ import "../styles/animate.css";
 import "bootstrap/dist/css/bootstrap.css"
 import "bootstrap/dist/js/bootstrap"
 import "@fortawesome/fontawesome-free/js/all"
-import WOW from "wow.js"
-new WOW().init();
+import wow from "wow.js"
+
+new wow(
+  {
+  boxClass:     'wow',      // default
+  animateClass: 'animated', // default
+  offset:       0,          // default
+  mobile:       false,       // default
+  live:         true        // default
+  }
+                  )
 
 export default class App extends Component {
   componentDidMount(){ 

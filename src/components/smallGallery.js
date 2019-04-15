@@ -25,7 +25,7 @@ render() {
           <div className="wow fadeIn col-12 col-md-6 col-lg-8 thumb-img">
             <img src={Image4} alt="" className="img-square img-fluid p-2" />
           </div>
-          <div className="wow fadeIn m-2 m-md-0 col-12 col-md-6 col-lg-4 thumb-img justify-content-center d-flex bg-yellow">
+          <div className="wow fadeIn m-md-0 col-12 col-md-6 col-lg-4 thumb-img justify-content-center d-flex bg-yellow w-100">
             <div className="row p-2 justify-content-center d-flex my-auto">
             <h3 className="p-2 text-white">Impressions</h3>
             <p className="p-2 text-white">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis exercitationem quisquam laudantium culpa, deserunt labore.</p>

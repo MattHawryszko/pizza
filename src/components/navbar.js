@@ -37,10 +37,14 @@ render() {
         <div>
           <nav className="navbar navbar-expand-sm navbar-dark bg-dark" id="navbar">
             <div className="container">
-                <div className="row justify-content-between justify-content-md-end pt-2">
-                <h1 className="navbar-brand text-center mr-0" onClick={this.handleEvent}>Scott's Pizzeria</h1>
-                  <a onClick={this.openModal} role="button" className="btn toggleNav pl-4 pt-1 pb-2 d-flex d-sm-none" data-toggle="modal" data-target="#exampleModal1"><i className="p-0 m-0 fas fa-bars toggleNav"></i></a>
+                <div className="row d-flex w-100">
+                  <div className="justify-content-between justify-content-sm-center d-flex pt-2 col-12 col-sm-2">
+                    <h1 className="navbar-brand" onClick={this.handleEvent}>Scott's Pizzeria</h1>
+                    <a onClick={this.openModal} role="button" className="btn toggleNav pl-4 pt-1 pb-2 d-flex d-sm-none" data-toggle="modal" data-target="#exampleModal1"><i className="p-0 m-0 fas fa-bars fa-2x text-white toggleNav"></i></a>
+                  </div>
+                  
                 </div>
+                
 
                
                 <div className="collapse navbar-collapse justify-content-end" id="navbar1">
