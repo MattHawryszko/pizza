@@ -21,7 +21,9 @@ code {
   
     monospace;
 }
-
+.bg-black{
+  background-color: rgb(46, 52, 52);
+}
 .bg-yellow{
   background-color: rgb(231, 185, 89) !important;
 }

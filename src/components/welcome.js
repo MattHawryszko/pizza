@@ -25,7 +25,7 @@ render() {
             <p className="text-light-grey">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non qui soluta ipsa, vero aliquid reprehenderit commodi amet eum quam ea. Ad, sapiente. Fugiat placeat hic quo eligendi vero rerum necessitatibus.</p>
           </div>
         </div>
-        <div className="row flex-column-reverse flex-md-row bg-yellow">
+        <div className="row flex-column-reverse flex-md-row bg-yellow mb-3">
           <div className="wow slideInLeft col-12 col-md-6 col-lg-4 my-auto">
             <h2 className="text-white">Reservation</h2>
             <p className="text-white">Call now to book a Reservation. We are available every day from 11 am onward (928) 222 - 0394</p>

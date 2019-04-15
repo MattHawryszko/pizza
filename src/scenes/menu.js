@@ -24,7 +24,8 @@ export default class App extends Component {
           <TopImage image={Image1} text="Menu"/>
           <MenuAbout />
           <MenuType />
-          <TakeOut />
+          <TakeOut/>
+          <div className="pb-3"></div>
           <Footer history={this.props.history}/>
         </div>
       </section>
