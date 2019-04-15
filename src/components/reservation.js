@@ -13,40 +13,40 @@ render() {
             <h3 className="font-weight-bold">Pick-up</h3>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde, eius nesciunt. Maxime praesentium dicta corporis?</p>
             
-            <ul class="text-light-grey">
+            <ul className="text-light-grey">
               <li className="d-flex py-2 pt-5">
-                <a href="tel:0592-314801" class="icon">
-                <span class="fa-stack fa-2x mx-auto">
-                <i class="fa fa-circle fa-stack-2x text-black-50"></i>
-                <i class="fas fa-phone fa-stack-1x text-white"></i>
+                <a href="tel:0592-314801" className="icon">
+                <span className="fa-stack fa-2x mx-auto">
+                <i className="fa fa-circle fa-stack-2x text-black-50"></i>
+                <i className="fas fa-phone fa-stack-1x text-white"></i>
                 </span>
               </a>
-              <div class="content">
+              <div className="content">
 
                 <a href="tel:212-695-2210"><strong className="text-black-50">(212) 695-2210</strong></a>
                 <p>Call us for a reservation.</p>
               </div>
             </li>
             <li className="d-flex py-2">
-              <a href="mailto:contact@scottspizzeria.com" class="icon">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-circle fa-stack-2x text-black-50"></i>
-                <i class="fas fa-map-marker-alt fa-stack-1x text-white"></i>
+              <a href="mailto:contact@scottspizzeria.com" className="icon">
+              <span className="fa-stack fa-2x">
+                <i className="fa fa-circle fa-stack-2x text-black-50"></i>
+                <i className="fas fa-map-marker-alt fa-stack-1x text-white"></i>
               </span>
               </a>
-              <div class="content">
+              <div className="content">
                 <a href="mailto:contact@scottspizzeria.com"><strong className="text-black-50">contact@scottspizzeria.com</strong></a>
                 <p>You can always email us for any information.</p>
               </div>
             </li>
             <li className="d-flex py-2">
-              <a href="https://goo.gl/maps/CCkTNf9zQf92" class="icon">
-              <span class="fa-stack fa-2x">
-                <i class="fa fa-circle fa-stack-2x text-black-50"></i>
-                <i class="fas fa-envelope fa-stack-1x text-white"></i>
+              <a href="https://goo.gl/maps/CCkTNf9zQf92" className="icon">
+              <span className="fa-stack fa-2x">
+                <i className="fa fa-circle fa-stack-2x text-black-50"></i>
+                <i className="fas fa-envelope fa-stack-1x text-white"></i>
               </span>
               </a>
-              <div class="content">
+              <div className="content">
                 <a href="https://goo.gl/maps/CCkTNf9zQf92"><strong className="text-black-50">Address</strong></a>
                 <p>253 W 28th St, New York, NY 10001, USA</p>
               </div>

@@ -11,19 +11,19 @@ handleEvent = event => {
 render() {
     return (
       
-<footer class="page-footer bg-dark pt-4">
+<footer className="page-footer bg-dark pt-4">
 
     
-    <div class="container-fluid text-center text-md-left">
+    <div className="container-fluid text-center text-md-left">
 
       
-      <div class="row">
+      <div className="row">
 
         
-        <div class="col-md-6 mt-md-0 mt-3">
+        <div className="col-md-6 mt-md-0 mt-3">
 
           
-          <h5 class="text-uppercase text-white">Footer Content</h5>
+          <h5 className="text-uppercase text-white">Footer Content</h5>
           <p className="text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati mollitia debitis quia hic maxime. Et mollitia repellat culpa odio excepturi, deleniti distinctio magni sint quibusdam explicabo animi consectetur, deserunt doloremque.</p>
 
         </div>
@@ -32,10 +32,10 @@ render() {
         
 
         
-        <div class="col-md-3 mb-md-0 mb-3">
+        <div className="col-md-3 mb-md-0 mb-3">
 
            
-            <h5 class="text-uppercase text-light-grey text-center">Links</h5>
+            <h5 className="text-uppercase text-light-grey text-center">Links</h5>
 
         <ul className="navbar-nav text-white " id="navbar-list">
           <li className="nav-link text-center" id="home" onClick={this.handleEvent}>Home</li>
@@ -50,7 +50,7 @@ render() {
          
 
           
-          <div class="col-md-3 mb-md-0 mb-3 ">
+          <div className="col-md-3 mb-md-0 mb-3 ">
 
             
           <h5 className="text-light-grey text-center">Hour's of operation</h5>
@@ -75,7 +75,7 @@ render() {
     
 
    
-    <div class="footer-copyright bg-black text-center py-3 text-white">© 2019 Copyright:
+    <div className="footer-copyright bg-black text-center py-3 text-white">© 2019 Copyright:
       <a href="https://pizza.matthawryszko.me" className="text-light-grey"> Scott's Pizzeria</a>
     </div>
 
